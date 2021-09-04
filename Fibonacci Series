@@ -5,15 +5,15 @@
 <body>  
 <script>  
 // declaration of the variables  
-var n1 = 0,  n2 = 1, next_num, i;  
+var num1 = 0,  num2 = 1, next_num, i;  
 var num = parseInt (prompt (" Enter the limit for Fibonacci Series "));  
 document.write( "Fibonacci Series: ");  
 for ( i = 1; i <= num; i++)  
-{  document.write (" <br> " +  n1); // print the n1  
-    next_num = n1 + n2; // sum of n1 and n2 into the next_num  
-      
-    n1 = n2; // assign the n2 value into n2  
-    n2 = next_num; // assign the next_num into n2  
+{  
+    document.write (" <br> " +  n1); // print the num1  
+    next_num = num1 + num2; // sum of num1 and num2 into the next_num  
+    num1 = num2; // assign the num2 value into num2  
+    num2 = next_num; // assign the next_num into num2  
 }  
   
 </script>  
