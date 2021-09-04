@@ -6,8 +6,9 @@
 <script>  
 // declaration of the variables  
 var num1 = 0,  num2 = 1, next_num, i;  
+//System will show below prompt message for the user to enter the limit to get Fibonacci series
 var num = parseInt (prompt (" Enter the limit for Fibonacci Series "));  
-document.write( "Fibonacci Series: ");  
+document.write( "Fibonacci Series: ");
 for ( i = 1; i <= num; i++)  
 {  
     document.write (" <br> " +  num1); // print the num1  
@@ -15,7 +16,6 @@ for ( i = 1; i <= num; i++)
     num1 = num2; // assign the num2 value into num2  
     num2 = next_num; // assign the next_num into num2  
 }  
-  
 </script>  
 </body>  
 </html>  
